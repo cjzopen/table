@@ -1,0 +1,48 @@
+<form action="">
+  <div class="row">
+    <div class="col-12">
+      <label for="">查詢條件</label>
+      <div class="row flex-wrap flex-lg-nowrap">
+        <div class="w-100 px-3">
+          <input type="text" class="form-control" id="" data-role="datebox" data-options="{&quot;mode&quot;:&quot;flipbox&quot;,&quot;useLang&quot;:&quot;zh-TW&quot;}" readonly="readonly" placeholder="日期">
+        </div>
+        <div class="w-100 px-3">
+          <input type="text" class="form-control" id="" data-role="datebox" data-options="{&quot;mode&quot;:&quot;timeflipbox&quot;,&quot;useLang&quot;:&quot;zh-TW&quot;}" readonly="readonly" placeholder="起始時間">
+        </div>
+        <div class="w-100 px-3">
+          <input type="text" class="form-control" id="" data-role="datebox" data-options="{&quot;mode&quot;:&quot;timeflipbox&quot;,&quot;useLang&quot;:&quot;zh-TW&quot;}" readonly="readonly" placeholder="結束時間">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <button type="submit" class="btn">查詢</button>
+    <button type="reset" class="btn active">清除</button>
+  </div>
+</form>
+<table class="table mt-3 w-100">
+  <thead>
+    <tr>
+      <th style="width:6rem;">No.</th>
+      <th>會議室名稱</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>群英樓 101 會議室</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>群英樓 101 會議室</td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdn.jtsage.com/external/jquery.mousewheel.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="lib/datebox/js/jtsage-datebox.js"></script>
+<script src="lib/datebox/js/jtsage-datebox.i18n.zh-TW.utf8.min.js"></script>
+
+<script src="js/table-pagination.js"></script>
