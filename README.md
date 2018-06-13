@@ -3,6 +3,7 @@
 based on bootstrap 4.1
 
 * [DateBox](http://dev.jtsage.com/DateBox/) 
+* [fontawesome 4.7.0](https://fontawesome.com/v4.7.0/icons/)
 
 ## 彈跳視窗
 
