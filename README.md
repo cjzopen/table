@@ -25,3 +25,15 @@ test.html 是彈跳視窗的內容
       <input type="text" class="form-control" id="" data-role="datebox" data-options="{&quot;mode&quot;:&quot;flipbox&quot;,&quot;useLang&quot;:&quot;zh-TW&quot;}" readonly="readonly" placeholder="日期">
 
        <input type="text" class="form-control" id="" data-role="datebox" data-options="{&quot;mode&quot;:&quot;timeflipbox&quot;,&quot;useLang&quot;:&quot;zh-TW&quot;}" readonly="readonly" placeholder="時間">
+
+
+## radio
+
+    <label class="radio mr-3">需要
+      <input type="radio" name="身障協助">
+      <span class="circle"></span>
+    </label>
+    <label class="radio">不需要
+      <input type="radio" name="身障協助">
+      <span class="circle"></span>
+    </label>
